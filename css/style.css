@@ -24,6 +24,45 @@ margin-right: auto;
 text-align: center;
 }
 
+.indent-right{
+    margin-left: 5%;
+}
+
+/* ---------------------------------------------------------------------- */
+/*                              Highlight Selection Classes
+/* ---------------------------------------------------------------------- */
+
+::selection {
+    background: #fff; /* Safari */
+    }
+::-moz-selection {
+    background: #fff; /* Firefox */
+}
+
+.red-selection::selection {
+    background: #ffb7b7;
+}
+
+.red-selection::-moz-selection {
+    background: #ffb7b7;
+}
+
+.blue-selection::selection {
+    background: #a8d1ff;
+}
+
+.blue-selection::-moz-selection {
+    background: #a8d1ff;
+}
+
+.yellow-selection::selection {
+    background: #fff2a8;
+}
+
+.yellow-selection::-moz-selection {
+    background: #fff2a8;
+}
+
 /* ---------------------------------------------------------------------- */
 /*								Nav Bar Style Classes
 /* ---------------------------------------------------------------------- */
@@ -87,3 +126,9 @@ ul li.active a{
     background: -moz-radial-gradient(center 80px 45deg, circle cover, rgba(124,252,0,1) 0%, rgba(124,222,0, 1) 100%);
 }
 
+body {
+    /*background-image: url(../img/waterLandscape.jpg); */
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
